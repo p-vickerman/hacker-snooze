@@ -11,7 +11,7 @@ let fetchArticleId = function () {
 
         let fetchArticle = function () {
 
-            for (let i = 0; i < 100; i++) {
+            for (let i = 0; i < 101; i++) {
                 console.log(i);
                 fetch("https://hacker-news.firebaseio.com/v0/item/" + data[i] + ".json?print=pretty")
                 .then(function (hres) {

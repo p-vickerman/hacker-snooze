@@ -46,10 +46,10 @@
 }
 
 #y {
-    border: solid white 2px;
+    border: solid rgb(208, 110, 5) 2px;
     padding:10px;
     margin: 1px;
-    color: white;
+    color: rgb(205, 92, 11);
 }
 
 #hacker-news {
